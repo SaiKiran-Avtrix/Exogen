@@ -621,6 +621,9 @@ font-size: 18px !important;
 .industry-banner{
   background-image: url(../img/banner/industries-banner.jpg) !important;
 }
+.privacy-banner{
+  background-image: url(../img/banner/PrivacyPolicy-banner.jpg) !important;
+}
 .call-to-action{
   background-color: var(--secondary);
   color: white ;
@@ -2446,4 +2449,28 @@ padding-right: 0px;
  .support-bi{
   margin-top: 25px;
  }
+}
+
+.policy-data{
+color: rgb(110, 110, 110);
+margin-bottom: 50px;
+}
+.privacy-sec{
+  padding: 50px;
+}
+@media (max-width:991px) {
+  .policy-data{
+    margin-bottom: 30px;
+    }
+    .privacy-sec{
+      padding: 30px;
+    }
+}
+.policy-data h5{
+font-size: 24px;
+font-weight: 700;
+color: var(--secondary);
+}
+.privacy-img img{
+  height: 350px;
 }
